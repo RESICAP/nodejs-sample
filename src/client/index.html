@@ -3,8 +3,22 @@
 	<head>
 		<title>Resicap DevOps Sample Site</title>
 		<link rel="stylesheet" href="index.css" type="text/css" />
+		<link rel="stylesheet" id="mode-css" href="lightmode.css" type="text/css" title="lightmode"/>
 	</head>
 	<body>
+		<div class="top-right">
+			<!-- Rounded switch -->
+			<label class="in-line">Dark Mode: </label>
+			<label class="switch">
+			  <input type="checkbox" onchange="toggleDarkMode(event, this)">
+			  <span class="slider round"></span>
+			</label>
+		</div>
+
+		<br/>
+		<hr/>
+		<br/>
+
 		<div class="main">
 			<div class="container">
 				<h4>Container 1</h4>

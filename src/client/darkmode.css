@@ -1,0 +1,45 @@
+html{
+	color: white;
+	background-color: gray;
+}
+
+div.main{
+	border-color: lightgray;
+}
+
+hr{	
+    background-color: white; /* Modern Browsers */
+}
+
+div.container{
+	border-color: white;
+}
+
+table.classes  {
+	border: 1px solid white;
+}
+
+th, td {
+	border: 1px solid white;
+}
+
+
+/** Toggle Button **/
+  
+  /* The slider */
+  .slider {
+	background-color: lightgray;
+  }
+  
+  .slider:before {
+	background-color: darkgray;
+  }
+  
+  input:checked + .slider {
+	background-color: white;
+  }
+  
+  input:focus + .slider {
+	box-shadow: 0 0 1px white;
+  }
+  
